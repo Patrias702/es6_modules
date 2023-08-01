@@ -39,7 +39,7 @@ form.addEventListener("submit", (event) => {
     // Will update the DOM 
     let li = document.createElement("li");
     li.classList.add("list-group-item");
-    li.textContent = car.model;
+    li.textContent = car.make +" "+ car.model;
     wishListUl.appendChild(li);
 
     // li is clicked 
